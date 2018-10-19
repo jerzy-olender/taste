@@ -1,0 +1,26 @@
+@import 'reset';
+@import 'fonts';
+
+.container{
+    width: 1260px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    .top-menu-link{
+       font-family: 'Roboto';
+        font-size: 18px;
+        color: #120203;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-left: 70px;
+        &:first-of-type{
+            margin-left: 0;
+        }   
+    }
+}
+
