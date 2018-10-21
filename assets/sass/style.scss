@@ -1,33 +1,117 @@
 @import 'reset';
 @import 'fonts';
 
-.container{
+.container {
     width: 1260px;
     margin: 0 auto;
 }
 
-.header-wrapper{
+.header-wrapper {
     background: url('../img/header-background.jpg');
     background-size: cover;
 }
 
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
-    .top-menu-link{
-       font-family: 'Roboto';
+
+    .top-menu-link {
+        font-family: 'Roboto';
         font-size: 18px;
         color: #120203;
         text-transform: uppercase;
         font-weight: 700;
         margin-left: 70px;
-        &:first-of-type{
+
+        &:first-of-type {
             margin-left: 0;
-        }   
+        }
     }
 }
 
+.welcome {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: url('../img/header-background.jpg');
+    background-size: cover;
 
+    //height: 600px;
+    .welcome-inner {
+        text-align: center;
 
+        .welcome-heading {
+            font-family: 'master_of_break';
+            font-size: 80px;
+            color: #ed2024;
+            text-align: center;
+            text-shadow: 10px 10px 0 #fff;
+            padding-bottom: 50px;
+            padding-top: 215px;
+        }
+
+        .welcome-text {
+            font-family: 'Roboto';
+            font-weight: 700;
+            font-size: 25px;
+            color: #fff;
+            text-transform: uppercase;
+            padding-bottom: 175px;
+        }
+
+        .chevron-down {
+            font-size: 40px;
+            color: #e8dbcf;
+            padding-bottom: 145px;
+        }
+    }
+
+    .chevron {
+        font-size: 40px;
+        color: #e8dbcf;
+    }
+}
+
+.reservation {
+    .reservation-inner {
+        padding: 150px 61px;
+        text-align: center;
+        .reservation-heading{
+            font-family: 'Roboto';
+            font-weight: 700;
+            font-size: 40px;
+            color: #f01b16;
+            text-transform: uppercase;
+            margin-bottom: 75px;
+            .reservation-span{
+                font-family: 'master_of_break';
+                font-size: 40px;
+                color: #f01b16;
+                text-transform: none;
+                margin-left: 30px;
+            }
+        }
+        .reservation-text{
+            font-family: 'Roboto';
+            font-size: 22px;
+            color: #9f9a97;
+            line-height: 1.2;
+            margin-bottom: 50px;
+        }
+        .reservation-button{
+            padding: 25px 30px;
+            font-family: 'Roboto';
+            font-size: 16px;
+            font-weight: 700;
+            color: #fff2ee;
+            text-transform: uppercase;
+            background-color: #ff7e66;
+            border: none;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+}

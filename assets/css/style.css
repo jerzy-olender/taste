@@ -128,6 +128,10 @@ table {
 a {
   text-decoration: none; }
 
+@font-face {
+  font-family: 'master_of_break';
+  src: url("../fonts/master-of-break-font/master_of_break.otf") format("opentype"); }
+
 .container {
   width: 1260px;
   margin: 0 auto; }
@@ -150,3 +154,68 @@ a {
     margin-left: 70px; }
     .header .top-menu-link:first-of-type {
       margin-left: 0; }
+
+.welcome {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: url("../img/header-background.jpg");
+  background-size: cover; }
+  .welcome .welcome-inner {
+    text-align: center; }
+    .welcome .welcome-inner .welcome-heading {
+      font-family: 'master_of_break';
+      font-size: 80px;
+      color: #ed2024;
+      text-align: center;
+      text-shadow: 10px 10px 0 #fff;
+      padding-bottom: 50px;
+      padding-top: 215px; }
+    .welcome .welcome-inner .welcome-text {
+      font-family: 'Roboto';
+      font-weight: 700;
+      font-size: 25px;
+      color: #fff;
+      text-transform: uppercase;
+      padding-bottom: 175px; }
+    .welcome .welcome-inner .chevron-down {
+      font-size: 40px;
+      color: #e8dbcf;
+      padding-bottom: 145px; }
+  .welcome .chevron {
+    font-size: 40px;
+    color: #e8dbcf; }
+
+.reservation .reservation-inner {
+  padding: 150px 61px;
+  text-align: center; }
+  .reservation .reservation-inner .reservation-heading {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 40px;
+    color: #f01b16;
+    text-transform: uppercase;
+    margin-bottom: 75px; }
+    .reservation .reservation-inner .reservation-heading .reservation-span {
+      font-family: 'master_of_break';
+      font-size: 40px;
+      color: #f01b16;
+      text-transform: none;
+      margin-left: 30px; }
+  .reservation .reservation-inner .reservation-text {
+    font-family: 'Roboto';
+    font-size: 22px;
+    color: #9f9a97;
+    line-height: 1.2;
+    margin-bottom: 50px; }
+  .reservation .reservation-inner .reservation-button {
+    padding: 25px 30px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff2ee;
+    text-transform: uppercase;
+    background-color: #ff7e66;
+    border: none; }
+    .reservation .reservation-inner .reservation-button:hover {
+      cursor: pointer; }
