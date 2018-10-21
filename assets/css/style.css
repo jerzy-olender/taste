@@ -177,7 +177,8 @@ a {
       font-size: 25px;
       color: #fff;
       text-transform: uppercase;
-      padding-bottom: 175px; }
+      padding-bottom: 175px;
+      letter-spacing: 0.10em; }
     .welcome .welcome-inner .chevron-down {
       font-size: 40px;
       color: #e8dbcf;
