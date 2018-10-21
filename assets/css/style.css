@@ -132,6 +132,10 @@ a {
   width: 1260px;
   margin: 0 auto; }
 
+.header-wrapper {
+  background: url("../img/header-background.jpg");
+  background-size: cover; }
+
 .header {
   display: flex;
   justify-content: space-between;
