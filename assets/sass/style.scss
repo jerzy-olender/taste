@@ -145,49 +145,57 @@
         background-color: #fff2ed;
         text-align: center;
         padding: 120px 0;
-        .heading{
+
+        .heading {
             font-family: 'Roboto';
             font-size: 45px;
             font-weight: 700;
             color: #ff7e66;
         }
-        .heading-img{
+
+        .heading-img {
             margin: 30px 0;
         }
-        .make-cooking-text{
+
+        .make-cooking-text {
             font-family: 'Roboto';
             font-size: 18px;
             color: #9f9a97;
             line-height: 1.2;
         }
-        
+
     }
 }
-.our-baking{
+
+.our-baking {
     padding: 150px 0;
     text-align: center;
-    .heading{
+
+    .heading {
         font-family: 'Roboto';
         font-size: 40px;
         font-weight: 700;
         color: #f01b16;
         text-transform: uppercase;
         margin-bottom: 60px;
-        .baking-span{
+
+        .baking-span {
             font-family: 'master_of_break';
             font-size: 40px;
             color: #f01b16;
             text-transform: none;
         }
     }
-    .paragraph{
+
+    .paragraph {
         font-family: 'Roboto';
         font-size: 22px;
         line-height: 1.2;
         color: #9f9a97;
         margin-bottom: 80px;
     }
-    .baking-button{
+
+    .baking-button {
         padding: 25px 50px;
         background-color: #ff7e66;
         font-family: 'Roboto';
@@ -196,8 +204,57 @@
         color: #fff2ee;
         text-transform: uppercase;
         border: none;
-        &:hover{
+
+        &:hover {
             cursor: pointer;
+        }
+    }
+}
+
+.the-lemon-cake {
+    background: url('../img/the-lemon-cake.jpg');
+    background-size: cover;
+    padding: 150px 0 90px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .lemon-inner {
+        padding-left: 700px;
+        .heading, .paragraph, .price {
+            margin-bottom: 60px;
+        }
+        .heading{
+            font-family: 'master_of_break';
+            font-size: 80px;
+            font-weight: 700;
+            color: #f01b16;
+        }
+        .paragraph{
+            font-family: 'Roboto';
+            font-size: 18px;
+            line-height: 1.2;
+            color: #fff;
+        }
+        .price{
+            font-family: 'master_of_break';
+            font-size: 50px;
+            font-weight: 700;
+            color: #fff;
+        }
+        .lemon{
+            font-family: 'Roboto';
+            font-size: 18px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #fff;
+            padding: 22px 35px;
+            background-color: rgba($color: #000000, $alpha: 0);
+            color: #fff;
+            border: 3px solid #fff;
+            &:hover {
+                cursor: pointer;
+            }
         }
     }
 }

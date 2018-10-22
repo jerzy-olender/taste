@@ -282,3 +282,42 @@ a {
     border: none; }
     .our-baking .baking-button:hover {
       cursor: pointer; }
+
+.the-lemon-cake {
+  background: url("../img/the-lemon-cake.jpg");
+  background-size: cover;
+  padding: 150px 0 90px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .the-lemon-cake .lemon-inner {
+    padding-left: 700px; }
+    .the-lemon-cake .lemon-inner .heading, .the-lemon-cake .lemon-inner .paragraph, .the-lemon-cake .lemon-inner .price {
+      margin-bottom: 60px; }
+    .the-lemon-cake .lemon-inner .heading {
+      font-family: 'master_of_break';
+      font-size: 80px;
+      font-weight: 700;
+      color: #f01b16; }
+    .the-lemon-cake .lemon-inner .paragraph {
+      font-family: 'Roboto';
+      font-size: 18px;
+      line-height: 1.2;
+      color: #fff; }
+    .the-lemon-cake .lemon-inner .price {
+      font-family: 'master_of_break';
+      font-size: 50px;
+      font-weight: 700;
+      color: #fff; }
+    .the-lemon-cake .lemon-inner .lemon {
+      font-family: 'Roboto';
+      font-size: 18px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #fff;
+      padding: 22px 35px;
+      background-color: rgba(0, 0, 0, 0);
+      color: #fff;
+      border: 3px solid #fff; }
+      .the-lemon-cake .lemon-inner .lemon:hover {
+        cursor: pointer; }
