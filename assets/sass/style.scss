@@ -218,6 +218,10 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    .chevron {
+        font-size: 40px;
+        color: #fff;
+    }
 
     .lemon-inner {
         padding-left: 700px;

@@ -290,6 +290,9 @@ a {
   display: flex;
   justify-content: space-around;
   align-items: center; }
+  .the-lemon-cake .chevron {
+    font-size: 40px;
+    color: #fff; }
   .the-lemon-cake .lemon-inner {
     padding-left: 700px; }
     .the-lemon-cake .lemon-inner .heading, .the-lemon-cake .lemon-inner .paragraph, .the-lemon-cake .lemon-inner .price {
