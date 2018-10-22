@@ -47,10 +47,11 @@
             font-size: 80px;
             color: #ed2024;
             text-align: center;
-            text-shadow: 10px 10px 0 #fff;
+            text-shadow: -10px 0 #fff, 0 10px #fff, 10px 0 #fff, 0 -10px #fff;
             padding-bottom: 50px;
             padding-top: 215px;
         }
+
         .welcome-text {
             font-family: 'Roboto';
             font-weight: 700;
@@ -60,6 +61,7 @@
             padding-bottom: 175px;
             letter-spacing: 0.10em;
         }
+
         .chevron-down {
             font-size: 40px;
             color: #e8dbcf;
@@ -77,14 +79,16 @@
     .reservation-inner {
         padding: 150px 61px;
         text-align: center;
-        .reservation-heading{
+
+        .reservation-heading {
             font-family: 'Roboto';
             font-weight: 700;
             font-size: 40px;
             color: #f01b16;
             text-transform: uppercase;
             margin-bottom: 75px;
-            .reservation-span{
+
+            .reservation-span {
                 font-family: 'master_of_break';
                 font-size: 40px;
                 color: #f01b16;
@@ -92,14 +96,16 @@
                 margin-left: 30px;
             }
         }
-        .reservation-text{
+
+        .reservation-text {
             font-family: 'Roboto';
             font-size: 22px;
             color: #9f9a97;
             line-height: 1.2;
             margin-bottom: 50px;
         }
-        .reservation-button{
+
+        .reservation-button {
             padding: 25px 30px;
             font-family: 'Roboto';
             font-size: 16px;
@@ -108,9 +114,34 @@
             text-transform: uppercase;
             background-color: #ff7e66;
             border: none;
-            &:hover{
+
+            &:hover {
                 cursor: pointer;
             }
         }
+    }
+}
+
+.make-cooking {
+    display: flex;
+
+    .make-cooking-inner {
+        width: 50%;
+    }
+
+    .left {
+        background: url('../img/make-cooking.jpg');
+
+        .make-cooking-img {
+            width: 100%;
+        }
+    }
+
+    .right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #fff2ed;
     }
 }

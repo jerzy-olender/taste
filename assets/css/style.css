@@ -168,7 +168,7 @@ a {
       font-size: 80px;
       color: #ed2024;
       text-align: center;
-      text-shadow: 10px 10px 0 #fff;
+      text-shadow: -10px 0 #fff, 0 10px #fff, 10px 0 #fff, 0 -10px #fff;
       padding-bottom: 50px;
       padding-top: 215px; }
     .welcome .welcome-inner .welcome-text {
@@ -220,3 +220,18 @@ a {
     border: none; }
     .reservation .reservation-inner .reservation-button:hover {
       cursor: pointer; }
+
+.make-cooking {
+  display: flex; }
+  .make-cooking .make-cooking-inner {
+    width: 50%; }
+  .make-cooking .left {
+    background: url("../img/make-cooking.jpg"); }
+    .make-cooking .left .make-cooking-img {
+      width: 100%; }
+  .make-cooking .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff2ed; }
