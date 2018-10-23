@@ -324,3 +324,33 @@ a {
       border: 3px solid #fff; }
       .the-lemon-cake .lemon-inner .lemon:hover {
         cursor: pointer; }
+
+.shop-icons .icon-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end; }
+  .shop-icons .icon-items .icon-item {
+    text-align: center;
+    padding: 60px 0; }
+    .shop-icons .icon-items .icon-item .icon-img {
+      margin-bottom: 30px; }
+    .shop-icons .icon-items .icon-item .icon-paragraph {
+      font-family: 'Roboto';
+      font-size: 30px;
+      font-weight: 700;
+      color: #120203; }
+
+.gallery .items {
+  display: flex; }
+  .gallery .items .item25 {
+    width: 25%;
+    height: 440px;
+    background: url("../img/gallery-tea.jpg");
+    background-size: cover;
+    background-position: center; }
+  .gallery .items .item50 {
+    width: 50%;
+    height: 440px;
+    background: url("../img/gallery-tea.jpg");
+    background-size: cover;
+    background-position: center; }

@@ -262,3 +262,43 @@
         }
     }
 }
+.shop-icons{
+    .icon-items{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        .icon-item{
+            text-align: center;
+            padding: 60px 0;
+            .icon-img{
+                margin-bottom: 30px;
+            }
+            .icon-paragraph{
+                font-family: 'Roboto';
+                font-size: 30px;
+                font-weight: 700;
+                color: #120203;
+            }
+        }
+    }
+}
+.gallery{
+    .items{
+        display: flex;
+        .item25{
+            width: 25%;
+            height: 440px;
+            background: url('../img/gallery-tea.jpg');
+            background-size: cover;  
+            background-position: center;          
+        }
+        .item50{
+            width: 50%;
+            height: 440px;
+            background: url('../img/gallery-tea.jpg');
+            background-size: cover;
+            background-position: center;    
+        }
+
+    }
+}
