@@ -295,7 +295,9 @@ a {
     color: #fff; }
   .the-lemon-cake .lemon-inner {
     padding-left: 700px; }
-    .the-lemon-cake .lemon-inner .heading, .the-lemon-cake .lemon-inner .paragraph, .the-lemon-cake .lemon-inner .price {
+    .the-lemon-cake .lemon-inner .heading,
+    .the-lemon-cake .lemon-inner .paragraph,
+    .the-lemon-cake .lemon-inner .price {
       margin-bottom: 60px; }
     .the-lemon-cake .lemon-inner .heading {
       font-family: 'master_of_break';
@@ -341,16 +343,37 @@ a {
       color: #120203; }
 
 .gallery .items {
-  display: flex; }
-  .gallery .items .item25 {
+  display: flex;
+  flex-wrap: wrap; }
+  .gallery .items .item25-text {
     width: 25%;
-    height: 440px;
-    background: url("../img/gallery-tea.jpg");
-    background-size: cover;
-    background-position: center; }
-  .gallery .items .item50 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff2ed; }
+    .gallery .items .item25-text .text {
+      font-family: 'Roboto';
+      font-size: 50px;
+      font-weight: 700;
+      color: #ff7e66;
+      text-transform: uppercase;
+      letter-spacing: 0.20em; }
+  .gallery .items .item1 {
+    width: 25%;
+    background: url("../img/gallery-tea.jpg"); }
+  .gallery .items .item2 {
     width: 50%;
+    background: url("../img/gallery-cake1.jpg"); }
+  .gallery .items .item3 {
+    width: 50%;
+    background: url("../img/gallery-cake2.jpg"); }
+  .gallery .items .item4 {
+    width: 25%;
+    background: url("../img/gallery-cake3.jpg"); }
+  .gallery .items .item5 {
+    width: 25%;
+    background: url("../img/gallery-cake4.jpg"); }
+  .gallery .items .item {
     height: 440px;
-    background: url("../img/gallery-tea.jpg");
     background-size: cover;
     background-position: center; }
