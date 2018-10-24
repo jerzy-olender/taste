@@ -370,6 +370,20 @@ a {
   .gallery .items .item4 {
     width: 25%;
     background: url("../img/gallery-cake3.jpg"); }
+    .gallery .items .item4 .text2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 130px 0;
+      margin: 40px;
+      background-color: rgba(241, 40, 36, 0.7); }
+      .gallery .items .item4 .text2 .paragraph {
+        font-family: 'Roboto';
+        font-size: 50px;
+        font-weight: 700;
+        color: #fff2ed;
+        text-transform: uppercase; }
   .gallery .items .item5 {
     width: 25%;
     background: url("../img/gallery-cake4.jpg"); }
@@ -377,3 +391,40 @@ a {
     height: 440px;
     background-size: cover;
     background-position: center; }
+
+.our-blog {
+  padding: 150px 0; }
+  .our-blog .blog-wrapper .title {
+    font-family: 'Roboto';
+    font-size: 40px;
+    font-weight: 700;
+    color: #f01b16;
+    text-align: center;
+    margin-bottom: 55px; }
+    .our-blog .blog-wrapper .title .blog-span {
+      font-family: 'master_of_break';
+      font-size: 40px;
+      color: #f01b16; }
+  .our-blog .blog-wrapper .paragraph {
+    font-family: 'Roboto';
+    font-size: 22px;
+    color: #9f9a97;
+    text-align: center;
+    line-height: 1.2;
+    margin-bottom: 112px; }
+  .our-blog .blog-wrapper .items {
+    display: flex;
+    justify-content: space-between; }
+    .our-blog .blog-wrapper .items .item1 {
+      background: url("../img/blog-item1.jpg"); }
+    .our-blog .blog-wrapper .items .item2 {
+      background: url("../img/blog-item2.jpg"); }
+    .our-blog .blog-wrapper .items .item3 {
+      background: url("../img/blog-item3.jpg"); }
+    .our-blog .blog-wrapper .items .item4 {
+      background: url("../img/blog-item4.jpg"); }
+    .our-blog .blog-wrapper .items .item {
+      width: 25%;
+      height: 350px;
+      background-size: cover;
+      background-position: center; }

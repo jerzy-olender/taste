@@ -300,13 +300,15 @@
     .items {
         display: flex;
         flex-wrap: wrap;
+
         .item25-text {
             width: 25%;
             display: flex;
             justify-content: center;
             align-items: center;
             background-color: #fff2ed;
-            .text{
+
+            .text {
                 font-family: 'Roboto';
                 font-size: 50px;
                 font-weight: 700;
@@ -315,30 +317,114 @@
                 letter-spacing: 0.20em;
             }
         }
-        .item1{
+
+        .item1 {
             width: 25%;
             background: url('../img/gallery-tea.jpg');
         }
-        .item2{
+
+        .item2 {
             width: 50%;
             background: url('../img/gallery-cake1.jpg');
         }
-        .item3{
+
+        .item3 {
             width: 50%;
-            background: url('../img/gallery-cake2.jpg');  
+            background: url('../img/gallery-cake2.jpg');
         }
-        .item4{
+
+        .item4 {
             width: 25%;
-            background: url('../img/gallery-cake3.jpg');  
+            background: url('../img/gallery-cake3.jpg');
+
+            .text2 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                padding: 130px 0;
+                margin: 40px;
+                background-color: rgba($color: #f12824, $alpha: 0.7);
+
+                .paragraph {
+                    font-family: 'Roboto';
+                    font-size: 50px;
+                    font-weight: 700;
+                    color: #fff2ed;
+                    text-transform: uppercase;
+
+                }
+            }
         }
-        .item5{
+
+        .item5 {
             width: 25%;
-            background: url('../img/gallery-cake4.jpg');  
+            background: url('../img/gallery-cake4.jpg');
         }
+
         .item {
             height: 440px;
             background-size: cover;
             background-position: center;
+        }
+    }
+
+
+}
+
+.our-blog {
+    padding: 150px 0;
+
+    .blog-wrapper {
+        .title {
+            font-family: 'Roboto';
+            font-size: 40px;
+            font-weight: 700;
+            color: #f01b16;
+            text-align: center;
+            margin-bottom: 55px;
+
+            .blog-span {
+                font-family: 'master_of_break';
+                font-size: 40px;
+                color: #f01b16;
+            }
+        }
+
+        .paragraph {
+            font-family: 'Roboto';
+            font-size: 22px;
+            color: #9f9a97;
+            text-align: center;
+            line-height: 1.2;
+            margin-bottom: 112px;
+        }
+
+        .items {
+            display: flex;
+            justify-content: space-between;
+
+            .item1 {
+                background: url('../img/blog-item1.jpg');
+            }
+
+            .item2 {
+                background: url('../img/blog-item2.jpg');
+            }
+
+            .item3 {
+                background: url('../img/blog-item3.jpg');
+            }
+
+            .item4 {
+                background: url('../img/blog-item4.jpg');
+            }
+            .item {
+                width: 25%;
+                height: 350px;
+                background-size: cover;
+                background-position: center;
+            }
         }
     }
 }
