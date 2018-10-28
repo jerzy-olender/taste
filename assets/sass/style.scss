@@ -419,11 +419,39 @@
             .item4 {
                 background: url('../img/blog-item4.jpg');
             }
+
             .item {
                 width: 25%;
                 height: 350px;
                 background-size: cover;
                 background-position: center;
+            }
+        }
+    }
+}
+
+.contact-us {
+    background: url('../img/contact-us.jpg');
+    .contact-form {
+        .top-form {
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: -25px;
+            width: calc(100% + 50px);
+
+            .top-input {
+                margin: 0 25px;
+                width: calc(100% / 3 - 50px);
+                
+
+
+            }
+            .input-style{
+                font-family: 'Roboto';
+                font-size: 18px;
+                font-weight: 700;
+                color: #fff;
+                background-color: transparent;
             }
         }
     }

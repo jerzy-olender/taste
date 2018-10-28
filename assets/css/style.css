@@ -128,6 +128,9 @@ table {
 a {
   text-decoration: none; }
 
+* {
+  box-sizing: border-box; }
+
 @font-face {
   font-family: 'master_of_break';
   src: url("../fonts/master-of-break-font/master_of_break.otf") format("opentype"); }
@@ -428,3 +431,20 @@ a {
       height: 350px;
       background-size: cover;
       background-position: center; }
+
+.contact-us {
+  background: url("../img/contact-us.jpg"); }
+  .contact-us .contact-form .top-form {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -25px;
+    width: calc(100% + 50px); }
+    .contact-us .contact-form .top-form .top-input {
+      margin: 0 25px;
+      width: calc(100% / 3 - 50px); }
+    .contact-us .contact-form .top-form .input-style {
+      font-family: 'Roboto';
+      font-size: 18px;
+      font-weight: 700;
+      color: #fff;
+      background-color: transparent; }
