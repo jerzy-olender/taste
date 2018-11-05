@@ -492,7 +492,10 @@
         .contact-item{
             width: 20%;
             .contact-img{
-            
+            height: 145px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             }
             .background1{
                 background: url('../img/contact-data-1.jpg');
