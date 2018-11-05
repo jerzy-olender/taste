@@ -432,26 +432,76 @@
 
 .contact-us {
     background: url('../img/contact-us.jpg');
+    background-size: cover;
+    .contact-heading{
+        font-size: 40px;
+        color: #fff;
+        text-align: center;
+        padding: 160px 0 85px 0;
+        .letter{
+            font-family: 'master_of_break';
+            margin-left: 10px;
+        }
+    }
     .contact-form {
+        .input-style {
+            font-family: 'Roboto';
+            font-size: 18px;
+            font-weight: 700;
+            color: #fff;
+            background-color: transparent;
+            border: 1px solid #fff;
+            padding: 20px 35px;
+        }
+        ::placeholder{color: #fff; opacity: 1;}
+            ::ms-input-placeholder{color: #fff; opacity: 1;}
         .top-form {
             display: flex;
             flex-wrap: wrap;
             margin-left: -25px;
             width: calc(100% + 50px);
+            margin-bottom: 40px;
 
             .top-input {
                 margin: 0 25px;
                 width: calc(100% / 3 - 50px);
-                
-
-
             }
-            .input-style{
-                font-family: 'Roboto';
-                font-size: 18px;
-                font-weight: 700;
-                color: #fff;
-                background-color: transparent;
+        }
+        .area-style{
+            width: 100%;
+        }
+
+        .input-button{
+            width: 100%;
+            background-color: #ff7d66;
+            font-size: 20px;
+            color: #fff;
+            font-weight: 700;
+            text-transform: uppercase;
+            border: none;
+            padding: 30px 0;
+            margin: 40px 0 60px 0;
+        }
+    }
+}
+
+.contact-data{
+    .contact-items{
+        display: flex;
+        justify-content: space-around;
+        .contact-item{
+            width: 20%;
+            .contact-img{
+            
+            }
+            .background1{
+                background: url('../img/contact-data-1.jpg');
+            }
+            .background2{
+                background: url('../img/contact-data-2.jpg');
+            }
+            .background3{
+                background: url('../img/contact-data-3.jpg');
             }
         }
     }

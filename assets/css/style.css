@@ -433,18 +433,60 @@ a {
       background-position: center; }
 
 .contact-us {
-  background: url("../img/contact-us.jpg"); }
+  background: url("../img/contact-us.jpg");
+  background-size: cover; }
+  .contact-us .contact-heading {
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    padding: 160px 0 85px 0; }
+    .contact-us .contact-heading .letter {
+      font-family: 'master_of_break';
+      margin-left: 10px; }
+  .contact-us .contact-form .input-style {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 20px 35px; }
+  .contact-us .contact-form ::placeholder {
+    color: #fff;
+    opacity: 1; }
+  .contact-us .contact-form ::ms-input-placeholder {
+    color: #fff;
+    opacity: 1; }
   .contact-us .contact-form .top-form {
     display: flex;
     flex-wrap: wrap;
     margin-left: -25px;
-    width: calc(100% + 50px); }
+    width: calc(100% + 50px);
+    margin-bottom: 40px; }
     .contact-us .contact-form .top-form .top-input {
       margin: 0 25px;
       width: calc(100% / 3 - 50px); }
-    .contact-us .contact-form .top-form .input-style {
-      font-family: 'Roboto';
-      font-size: 18px;
-      font-weight: 700;
-      color: #fff;
-      background-color: transparent; }
+  .contact-us .contact-form .area-style {
+    width: 100%; }
+  .contact-us .contact-form .input-button {
+    width: 100%;
+    background-color: #ff7d66;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    padding: 30px 0;
+    margin: 40px 0 60px 0; }
+
+.contact-data .contact-items {
+  display: flex;
+  justify-content: space-around; }
+  .contact-data .contact-items .contact-item {
+    width: 20%; }
+    .contact-data .contact-items .contact-item .background1 {
+      background: url("../img/contact-data-1.jpg"); }
+    .contact-data .contact-items .contact-item .background2 {
+      background: url("../img/contact-data-2.jpg"); }
+    .contact-data .contact-items .contact-item .background3 {
+      background: url("../img/contact-data-3.jpg"); }
