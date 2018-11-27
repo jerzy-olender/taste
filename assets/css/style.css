@@ -488,7 +488,8 @@ a {
       height: 145px;
       display: flex;
       justify-content: center;
-      align-items: center; }
+      align-items: center;
+      margin: 30px 0; }
     .contact-data .contact-items .contact-item .background1 {
       background: url("../img/contact-data-1.jpg"); }
     .contact-data .contact-items .contact-item .background2 {
