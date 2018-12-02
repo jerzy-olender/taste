@@ -417,7 +417,9 @@ a {
     margin-bottom: 112px; }
   .our-blog .blog-wrapper .items {
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    width: calc(100% + 30px);
+    margin-left: -15px; }
     .our-blog .blog-wrapper .items .item1 {
       background: url("../img/blog-item1.jpg"); }
     .our-blog .blog-wrapper .items .item2 {
@@ -427,7 +429,7 @@ a {
     .our-blog .blog-wrapper .items .item4 {
       background: url("../img/blog-item4.jpg"); }
     .our-blog .blog-wrapper .items .item {
-      width: 25%;
+      width: calc((100% / 4) - 30px);
       height: 350px;
       background-size: cover;
       background-position: center; }

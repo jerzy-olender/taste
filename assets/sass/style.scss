@@ -403,6 +403,8 @@
         .items {
             display: flex;
             justify-content: space-between;
+            width: calc(100% + 30px);
+            margin-left: -15px;
 
             .item1 {
                 background: url('../img/blog-item1.jpg');
@@ -420,12 +422,13 @@
                 background: url('../img/blog-item4.jpg');
             }
 
-            .item {
-                width: 25%;
+            .item{
+                width: calc((100% / 4) - 30px);
                 height: 350px;
                 background-size: cover;
                 background-position: center;
             }
+
         }
     }
 }
