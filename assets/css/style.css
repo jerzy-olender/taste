@@ -491,13 +491,13 @@ a {
     width: 960px;
     margin: 0 auto; }
     .contact-data .contact-items .contact-item {
-      width: calc((100% / 3) - 40px); }
+      width: calc((100% / 3) - 40px);
+      margin: 30px 0; }
       .contact-data .contact-items .contact-item .contact-img {
         height: 145px;
         display: flex;
         justify-content: center;
-        align-items: center;
-        margin: 30px 0 0 0; }
+        align-items: center; }
       .contact-data .contact-items .contact-item .text {
         height: 145px;
         display: flex;
@@ -505,6 +505,12 @@ a {
         justify-content: center;
         align-items: center;
         background-color: #fff; }
+        .contact-data .contact-items .contact-item .text .heading {
+          font-family: 'Roboto';
+          text-transform: uppercase;
+          font-size: 16px;
+          font-weight: 700;
+          margin-bottom: 25px; }
       .contact-data .contact-items .contact-item .background1 {
         background: url("../img/contact-data-1.jpg"); }
       .contact-data .contact-items .contact-item .background2 {
