@@ -483,20 +483,31 @@ a {
     .contact-us .contact-form .input-button:hover {
       cursor: pointer; }
 
-.contact-data .contact-items {
-  display: flex;
-  justify-content: space-around; }
-  .contact-data .contact-items .contact-item {
-    width: 20%; }
-    .contact-data .contact-items .contact-item .contact-img {
-      height: 145px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 30px 0; }
-    .contact-data .contact-items .contact-item .background1 {
-      background: url("../img/contact-data-1.jpg"); }
-    .contact-data .contact-items .contact-item .background2 {
-      background: url("../img/contact-data-2.jpg"); }
-    .contact-data .contact-items .contact-item .background3 {
-      background: url("../img/contact-data-3.jpg"); }
+.contact-data {
+  background-color: #fff2ed; }
+  .contact-data .contact-items {
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+    margin: 0 auto; }
+    .contact-data .contact-items .contact-item {
+      width: calc((100% / 3) - 40px); }
+      .contact-data .contact-items .contact-item .contact-img {
+        height: 145px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 30px 0 0 0; }
+      .contact-data .contact-items .contact-item .text {
+        height: 145px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff; }
+      .contact-data .contact-items .contact-item .background1 {
+        background: url("../img/contact-data-1.jpg"); }
+      .contact-data .contact-items .contact-item .background2 {
+        background: url("../img/contact-data-2.jpg"); }
+      .contact-data .contact-items .contact-item .background3 {
+        background: url("../img/contact-data-3.jpg"); }
