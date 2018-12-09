@@ -603,4 +603,30 @@
             }
         }
     }
+    .bottom-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 45px 0;
+        .footer-heading{
+            font-family: 'master_of_break';
+            font-size: 35px;
+            color: #f01b16;
+            margin-bottom: 25px;
+        }
+        .footer-copyright{
+            font-family: 'Roboto', sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            color: #81868e;
+            margin-bottom: 35px;
+        }
+        .footer-social{
+            width: 170px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
 }
