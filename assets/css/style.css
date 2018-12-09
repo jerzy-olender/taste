@@ -432,7 +432,33 @@ a {
       width: calc((100% / 4) - 30px);
       height: 350px;
       background-size: cover;
-      background-position: center; }
+      background-position: center;
+      overflow: hidden; }
+      .our-blog .blog-wrapper .items .item .title {
+        font-family: 'Roboto';
+        font-size: 24px;
+        font-weight: 700;
+        color: #000;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 55px;
+        border-radius: 50%;
+        background: #fff;
+        width: 103%;
+        height: 88%;
+        top: -190px;
+        position: relative;
+        overflow: hidden;
+        margin: 0 auto;
+        left: -4px;
+        padding-top: 204px; }
+      .our-blog .blog-wrapper .items .item .subtitle {
+        top: -250px;
+        position: relative;
+        text-align: center;
+        font-family: 'master_of_break';
+        font-size: 24px;
+        color: #f01b16; }
 
 .contact-us {
   background: url("../img/contact-us.jpg");

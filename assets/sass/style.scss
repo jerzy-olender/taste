@@ -427,6 +427,36 @@
                 height: 350px;
                 background-size: cover;
                 background-position: center;
+                overflow: hidden;
+
+                .title {
+                    font-family: 'Roboto';
+                    font-size: 24px;
+                    font-weight: 700;
+                    color: #000;
+                    text-align: center;
+                    text-transform: uppercase;
+                    margin-bottom: 55px;
+                    border-radius: 50%;
+                    background: #fff;
+                    width: 103%;
+                    height: 88%;
+                    top: -190px;
+                    position: relative;
+                    overflow: hidden;
+                    margin: 0 auto;
+                    left: -4px;
+                    padding-top: 204px;
+                }
+
+                .subtitle {
+                    top: -250px;
+                    position: relative;
+                    text-align: center;
+                    font-family: 'master_of_break';
+                    font-size: 24px;
+                    color: #f01b16;
+                }
             }
 
         }
@@ -603,26 +633,30 @@
             }
         }
     }
-    .bottom-footer{
+
+    .bottom-footer {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         padding: 45px 0;
-        .footer-heading{
+
+        .footer-heading {
             font-family: 'master_of_break';
             font-size: 35px;
             color: #f01b16;
             margin-bottom: 25px;
         }
-        .footer-copyright{
+
+        .footer-copyright {
             font-family: 'Roboto', sans-serif;
             font-size: 14px;
             font-weight: 600;
             color: #81868e;
             margin-bottom: 35px;
         }
-        .footer-social{
+
+        .footer-social {
             width: 170px;
             margin: 0 auto;
             display: flex;
