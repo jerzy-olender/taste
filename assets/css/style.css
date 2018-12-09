@@ -502,15 +502,17 @@ a {
         height: 145px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
-        background-color: #fff; }
+        background-color: #fff;
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 30px; }
         .contact-data .contact-items .contact-item .text .heading {
           font-family: 'Roboto';
-          text-transform: uppercase;
           font-size: 16px;
-          font-weight: 700;
-          margin-bottom: 25px; }
+          font-weight: 700; }
+        .contact-data .contact-items .contact-item .text .subheading {
+          margin-top: 25px; }
       .contact-data .contact-items .contact-item .background1 {
         background: url("../img/contact-data-1.jpg"); }
       .contact-data .contact-items .contact-item .background2 {
