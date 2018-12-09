@@ -519,3 +519,35 @@ a {
         background: url("../img/contact-data-2.jpg"); }
       .contact-data .contact-items .contact-item .background3 {
         background: url("../img/contact-data-3.jpg"); }
+
+.footer .map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #000; }
+  .footer .map .footer-map {
+    opacity: 0.502; }
+  .footer .map .map-text {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .footer .map .map-text .map-span {
+      text-transform: none;
+      font-family: 'master_of_break';
+      margin: 0 10px;
+      width: 55px;
+      height: 55px;
+      background-color: #f01b16;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%; }
+      .footer .map .map-text .map-span:before {
+        content: 'Top'; }
