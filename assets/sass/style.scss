@@ -33,12 +33,11 @@
 
 .welcome {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background: url('../img/header-background.jpg');
     background-size: cover;
 
-    //height: 600px;
     .welcome-inner {
         text-align: center;
 
@@ -216,7 +215,7 @@
     background-size: cover;
     padding: 150px 0 90px 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 
     .chevron {
@@ -225,19 +224,13 @@
     }
 
     .lemon-inner {
-        padding-left: 700px;
+        position: relative;
+        left: 410px;
 
         .heading,
         .paragraph,
         .price {
             margin-bottom: 60px;
-        }
-
-        .heading {
-            font-family: 'master_of_break';
-            font-size: 80px;
-            font-weight: 700;
-            color: #f01b16;
         }
 
         .paragraph {

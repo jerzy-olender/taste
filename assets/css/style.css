@@ -131,6 +131,9 @@ a {
 * {
   box-sizing: border-box; }
 
+.chevron {
+  padding: 0 20px; }
+
 @font-face {
   font-family: 'master_of_break';
   src: url("../fonts/master-of-break-font/master_of_break.otf") format("opentype"); }
@@ -160,7 +163,7 @@ a {
 
 .welcome {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background: url("../img/header-background.jpg");
   background-size: cover; }
@@ -291,22 +294,18 @@ a {
   background-size: cover;
   padding: 150px 0 90px 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center; }
   .the-lemon-cake .chevron {
     font-size: 40px;
     color: #fff; }
   .the-lemon-cake .lemon-inner {
-    padding-left: 700px; }
+    position: relative;
+    left: 410px; }
     .the-lemon-cake .lemon-inner .heading,
     .the-lemon-cake .lemon-inner .paragraph,
     .the-lemon-cake .lemon-inner .price {
       margin-bottom: 60px; }
-    .the-lemon-cake .lemon-inner .heading {
-      font-family: 'master_of_break';
-      font-size: 80px;
-      font-weight: 700;
-      color: #f01b16; }
     .the-lemon-cake .lemon-inner .paragraph {
       font-family: 'Roboto';
       font-size: 18px;
