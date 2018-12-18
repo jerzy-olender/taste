@@ -531,54 +531,58 @@
 .contact-data {
     background-color: #fff2ed;
 
-    .contact-items {
-        display: flex;
-        justify-content: space-between;
+    .contact-wrapper {
         width: 960px;
         margin: 0 auto;
+        .contact-items {
+            display: flex;
+            justify-content: space-between;
+            width: calc(100% + 40px);
+            margin-left: -20px;
 
-        .contact-item {
-            width: calc((100% / 3) - 40px);
-            margin: 30px 0;
+            .contact-item {
+                width: calc((100% / 3) - 40px);
+                margin: 30px 20px;
 
-            .contact-img {
-                height: 145px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-
-            .text {
-                height: 145px;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                background-color: #fff;
-                text-transform: uppercase;
-                text-align: center;
-                padding-top: 30px;
-
-                .heading {
-                    font-family: 'Roboto';
-                    font-size: 16px;
-                    font-weight: 700;
+                .contact-img {
+                    height: 145px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
                 }
 
-                .subheading {
-                    margin-top: 25px;
+                .text {
+                    height: 145px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    background-color: #fff;
+                    text-transform: uppercase;
+                    text-align: center;
+                    padding-top: 30px;
+
+                    .heading {
+                        font-family: 'Roboto';
+                        font-size: 16px;
+                        font-weight: 700;
+                    }
+
+                    .subheading {
+                        margin-top: 25px;
+                    }
                 }
-            }
 
-            .background1 {
-                background: url('../img/contact-data-1.jpg');
-            }
+                .background1 {
+                    background: url('../img/contact-data-1.jpg');
+                }
 
-            .background2 {
-                background: url('../img/contact-data-2.jpg');
-            }
+                .background2 {
+                    background: url('../img/contact-data-2.jpg');
+                }
 
-            .background3 {
-                background: url('../img/contact-data-3.jpg');
+                .background3 {
+                    background: url('../img/contact-data-3.jpg');
+                }
             }
         }
     }
@@ -657,3 +661,21 @@
         }
     }
 }
+
+@media(max-width: 1280px) {
+    .container {
+        width: 88%;
+    }
+
+    .the-lemon-cake .lemon-inner {
+        position: relative;
+        left: 150px;
+    }
+
+    .header .top-menu-link {
+        font-size: 14px;
+        margin-left: 40px;
+    }
+}
+
+@media(max-width: 991px) {}

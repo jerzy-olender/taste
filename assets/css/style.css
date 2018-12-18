@@ -510,40 +510,43 @@ a {
 
 .contact-data {
   background-color: #fff2ed; }
-  .contact-data .contact-items {
-    display: flex;
-    justify-content: space-between;
+  .contact-data .contact-wrapper {
     width: 960px;
     margin: 0 auto; }
-    .contact-data .contact-items .contact-item {
-      width: calc((100% / 3) - 40px);
-      margin: 30px 0; }
-      .contact-data .contact-items .contact-item .contact-img {
-        height: 145px;
-        display: flex;
-        justify-content: center;
-        align-items: center; }
-      .contact-data .contact-items .contact-item .text {
-        height: 145px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: #fff;
-        text-transform: uppercase;
-        text-align: center;
-        padding-top: 30px; }
-        .contact-data .contact-items .contact-item .text .heading {
-          font-family: 'Roboto';
-          font-size: 16px;
-          font-weight: 700; }
-        .contact-data .contact-items .contact-item .text .subheading {
-          margin-top: 25px; }
-      .contact-data .contact-items .contact-item .background1 {
-        background: url("../img/contact-data-1.jpg"); }
-      .contact-data .contact-items .contact-item .background2 {
-        background: url("../img/contact-data-2.jpg"); }
-      .contact-data .contact-items .contact-item .background3 {
-        background: url("../img/contact-data-3.jpg"); }
+    .contact-data .contact-wrapper .contact-items {
+      display: flex;
+      justify-content: space-between;
+      width: calc(100% + 40px);
+      margin-left: -20px; }
+      .contact-data .contact-wrapper .contact-items .contact-item {
+        width: calc((100% / 3) - 40px);
+        margin: 30px 20px; }
+        .contact-data .contact-wrapper .contact-items .contact-item .contact-img {
+          height: 145px;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+        .contact-data .contact-wrapper .contact-items .contact-item .text {
+          height: 145px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          background-color: #fff;
+          text-transform: uppercase;
+          text-align: center;
+          padding-top: 30px; }
+          .contact-data .contact-wrapper .contact-items .contact-item .text .heading {
+            font-family: 'Roboto';
+            font-size: 16px;
+            font-weight: 700; }
+          .contact-data .contact-wrapper .contact-items .contact-item .text .subheading {
+            margin-top: 25px; }
+        .contact-data .contact-wrapper .contact-items .contact-item .background1 {
+          background: url("../img/contact-data-1.jpg"); }
+        .contact-data .contact-wrapper .contact-items .contact-item .background2 {
+          background: url("../img/contact-data-2.jpg"); }
+        .contact-data .contact-wrapper .contact-items .contact-item .background3 {
+          background: url("../img/contact-data-3.jpg"); }
 
 .footer .map {
   display: flex;
@@ -599,3 +602,13 @@ a {
     margin: 0 auto;
     display: flex;
     justify-content: space-between; }
+
+@media (max-width: 1280px) {
+  .container {
+    width: 88%; }
+  .the-lemon-cake .lemon-inner {
+    position: relative;
+    left: 150px; }
+  .header .top-menu-link {
+    font-size: 14px;
+    margin-left: 40px; } }
