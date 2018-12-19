@@ -603,12 +603,15 @@ a {
     display: flex;
     justify-content: space-between; }
 
+@media (max-width: 1483px) {
+  .container {
+    width: 90%; }
+  .the-lemon-cake .lemon-inner {
+    left: 150px; } }
+
 @media (max-width: 1280px) {
   .container {
     width: 88%; }
-  .the-lemon-cake .lemon-inner {
-    position: relative;
-    left: 150px; }
   .header .top-menu-link {
     font-size: 14px;
     margin-left: 40px; } }
