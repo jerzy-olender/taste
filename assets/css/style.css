@@ -558,7 +558,10 @@ body {
   position: relative;
   background-color: #000; }
   .footer .map .footer-map {
-    opacity: 0.502; }
+    opacity: 0.502;
+    width: 100%;
+    height: 555px;
+    border: 0; }
   .footer .map .map-text {
     position: absolute;
     font-family: 'Roboto', sans-serif;
