@@ -123,6 +123,7 @@
 
 .make-cooking {
     display: flex;
+    flex-wrap: wrap;
 
     .make-cooking-inner {
         width: 50%;
@@ -270,7 +271,7 @@
         display: flex;
         justify-content: space-between;
         align-items: flex-end;
-
+        flex-wrap: wrap;
         .icon-item {
             text-align: center;
             padding: 60px 0;
@@ -398,6 +399,7 @@
             justify-content: space-between;
             width: calc(100% + 30px);
             margin-left: -15px;
+            flex-wrap: wrap;
 
             .item1 {
                 background: url('../img/blog-item1.jpg');
@@ -540,6 +542,7 @@
             justify-content: space-between;
             width: calc(100% + 40px);
             margin-left: -20px;
+            flex-wrap: wrap;
 
             .contact-item {
                 width: calc((100% / 3) - 40px);
@@ -666,6 +669,14 @@
     }
 }
 
+@media(max-width: 1500px){
+    .the-lemon-cake {
+        .lemon-inner {
+            left: 0;
+        }
+    }
+}
+
 @media(max-width: 1280px) {
     .container {
         width: 80%;
@@ -677,11 +688,102 @@
         }
     }
 
-    .the-lemon-cake {
-        .lemon-inner {
-            left: 0;
+    .gallery {
+        .items {
+            .item{
+                width: 50%;
+            }
+        }
+    }
+
+    .our-blog{
+        .blog-wrapper{
+            .items{
+                .item{
+                    width: calc((100% / 2 ) - 30px);
+                    margin: 15px 0;
+                }
+            }
+        }
+    }
+
+    .contact-data{
+        .contact-wrapper{
+            .contact-items{
+                .contact-item{
+                    width: 60%;
+                    margin: 30px auto;
+                }
+            }
+        }
+    }
+
+}
+
+@media(max-width: 991px) {
+    .welcome{
+        .welcome-inner{
+            .welcome-heading{
+                .welcome-img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .the-lemon-cake{
+        .lemon-inner{
+            .heading{
+                width: 100%;
+            }
+        }
+    }
+
+    .contact-us{
+        .contact-form{
+            .top-form{
+                .top-input{
+                    width: 100%;
+                    margin: 20px;
+                }
+            }
+        }
+    }
+      
+}
+
+@media(max-width: 768px) {
+    .make-cooking{
+        .make-cooking-inner{
+            width: 100%
+        }
+    }
+
+    .shop-icons{
+        .icon-items{
+            .icon-item{
+                margin: 0 auto;
+                width: 100%;
+            }
+        }
+    }
+
+    .gallery {
+        .items {
+            .item{
+                width: 100%;
+            }
+        }
+    }
+
+    .our-blog{
+        .blog-wrapper{
+            .items{
+                .item{
+                    width: 60%;
+                    margin: 20px auto;
+                }
+            }
         }
     }
 }
-
-@media(max-width: 991px) {}
