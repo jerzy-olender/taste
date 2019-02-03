@@ -657,6 +657,8 @@ body {
     margin-right: auto; } }
 
 @media (max-width: 480px) {
+  .welcome .welcome-inner .welcome-text {
+    font-size: 20px; }
   .reservation .reservation-inner .reservation-heading {
     font-size: 25px; }
   .contact-data .contact-wrapper .contact-items .contact-item .text {
