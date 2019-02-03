@@ -742,9 +742,11 @@
     .contact-us{
         .contact-form{
             .top-form{
+                width: 100%;
+                margin-left: 0;
                 .top-input{
                     width: 100%;
-                    margin: 20px;
+                    margin: 20px auto;
                 }
             }
         }
@@ -781,9 +783,29 @@
             .items{
                 .item{
                     width: 60%;
-                    margin: 20px auto;
+                    margin-left: auto;
+                    margin-right: auto;
                 }
             }
         }
     }
+}
+
+@media(max-width: 480px) {
+    .reservation{
+        .reservation-inner{
+            .reservation-heading{
+                font-size: 25px;
+            }
+        }
+    } 
+    .contact-data{
+        .contact-wrapper{
+            .contact-items{
+                .contact-item .text{
+                    font-size: 12px;
+                }
+            }
+        }
+    }    
 }
